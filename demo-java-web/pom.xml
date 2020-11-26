@@ -61,15 +61,15 @@
         </profile>
         <profile>
             <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <properties>
                 <deploy.env>dev</deploy.env>
             </properties>
         </profile>
         <profile>
             <id>local</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <properties>
                 <deploy.env>local</deploy.env>
             </properties>
@@ -77,9 +77,6 @@
     </profiles>
 
     <build>
-        <filters>
-            <filter>src/main/resources/config/application-${deploy.env}.properties</filter>
-        </filters>
         <resources>
             <resource>
                 <directory>src/main/resources/</directory>
