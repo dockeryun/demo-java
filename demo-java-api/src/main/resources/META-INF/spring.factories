@@ -1,3 +1,0 @@
-# Auto Configure
-org.springframework.cloud.bootstrap.BootstrapConfiguration=\
-com.wanshifu.demo.java.DemoJavaApiConfiguration
