@@ -7,6 +7,3 @@ job1:
   script:
     - /usr/local/bin/python3.7 /data/scripts/reviewboard/post_reviewboard_hook.py "$CI_BUILD_REPO" "$CI_PROJECT_DIR" "$CI_BUILD_REF_NAME"  "$CI_BUILD_REF" &>> /data/servicesLog/reviewboard_hook.log
 
-
-
-
