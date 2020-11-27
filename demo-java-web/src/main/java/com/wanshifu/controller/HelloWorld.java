@@ -1,5 +1,6 @@
 package com.wanshifu.controller;
 
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("hello")
 public class HelloWorld {
 
-    @RequestMapping("hello")
+    @PostMapping("hello")
     public String helloWorld(){
         return "Hello world!!!";
     }
