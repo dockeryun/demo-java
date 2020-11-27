@@ -31,9 +31,9 @@
 
     <!--release版本发布 远程git仓库地址-->
     <scm>
-        <connection>scm:git:git@git.wanshifu.com:demo/demo-java.git</connection>
-        <developerConnection>scm:git:git@git.wanshifu.com:demo/demo-java.git</developerConnection>
-        <url>scm:git:git@git.wanshifu.com:demo/demo-java.git</url>
+        <connection>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</connection>
+        <developerConnection>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</developerConnection>
+        <url>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</url>
         <tag>HEAD</tag>
     </scm>
 
