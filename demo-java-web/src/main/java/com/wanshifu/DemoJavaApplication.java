@@ -1,6 +1,7 @@
 package com.wanshifu;
 
 
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -11,6 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 @EnableFeignClients
+@EnableApolloConfig
 public class DemoJavaApplication extends SpringBootServletInitializer {
 
     @Override

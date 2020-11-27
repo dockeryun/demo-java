@@ -27,6 +27,11 @@
             <version>${wanshfiu-framework-version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>1.4.0</version>
+        </dependency>
         <!--H2-->
         <dependency>
             <groupId>com.h2database</groupId>
