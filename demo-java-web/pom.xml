@@ -3,7 +3,7 @@
     <parent>
         <groupId>com.wanshifu</groupId>
         <artifactId>demo-java</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.wanshifu</groupId>
             <artifactId>demo-java-api</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.wanshifu</groupId>
