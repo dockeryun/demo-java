@@ -5,13 +5,13 @@
         <groupId>com.wanshifu</groupId>
         <artifactId>wshifu-microservice-parent</artifactId>
         <version>2.5.Jacoco</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wanshifu</groupId>
     <artifactId>demo-java</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <modules>
         <module>demo-java-api</module>
         <module>demo-java-web</module>
@@ -34,7 +34,7 @@
         <connection>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</connection>
         <developerConnection>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</developerConnection>
         <url>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</url>
-        <tag>HEAD</tag>
+        <tag>demo-java-1.0.2</tag>
     </scm>
 
     <distributionManagement>
