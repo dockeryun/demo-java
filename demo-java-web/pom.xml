@@ -3,19 +3,19 @@
     <parent>
         <groupId>com.wanshifu</groupId>
         <artifactId>demo-java</artifactId>
-        <version>1.0.5-SNAPSHOT</version>
+        <version>1.0.5</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
 
     <artifactId>demo-java-web</artifactId>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.5</version>
 
     <dependencies>
         <dependency>
             <groupId>com.wanshifu</groupId>
             <artifactId>demo-java-api</artifactId>
-            <version>1.0.5-SNAPSHOT</version>
+            <version>1.0.5</version>
         </dependency>
         <dependency>
             <groupId>com.wanshifu</groupId>
@@ -107,6 +107,6 @@
     </build>
 
   <scm>
-    <tag>demo-java-1.0.3-SNAPSHOT-SNAPSHOT</tag>
+    <tag>demo-java-1.0.5</tag>
   </scm>
 </project>
