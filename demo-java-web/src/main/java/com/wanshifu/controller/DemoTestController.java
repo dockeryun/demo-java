@@ -12,4 +12,11 @@ public class DemoTestController {
         return "Hello my name is yangqiang";
     }
 
+    @RequestMapping("/test/pengyu")
+    public String testHelloWorld(){
+        return "Hello my name is pengyu";
+    }
+
+
+
 }
