@@ -12,9 +12,9 @@ public class DemoTestController {
         return "Hello my name is yangqiang";
     }
 
-    @RequestMapping("/test/pengyu")
+    @RequestMapping("/test/name")
     public String testHelloWorld(){
-        return "Hello my name is pengyu";
+        return "Hello my name is name";
     }
 
 
