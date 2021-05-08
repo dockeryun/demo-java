@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.wanshifu</groupId>
             <artifactId>demo-java-api</artifactId>
-            <version>1.0.9-SNAPSHOT</version>
+            <version>1.0.10-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.wanshifu</groupId>
@@ -107,6 +107,6 @@
     </build>
 
   <scm>
-    <tag>demo-java-1.0.3-SNAPSHOT-SNAPSHOT</tag>
+    <tag>demo-java-1.0.9</tag>
   </scm>
 </project>
