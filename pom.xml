@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wanshifu</groupId>
     <artifactId>demo-java</artifactId>
-    <version>1.0.10-SNAPSHOT</version>
+    <version>1.0.9-SNAPSHOT</version>
     <modules>
         <module>demo-java-api</module>
         <module>demo-java-web</module>
