@@ -34,7 +34,7 @@
         <connection>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</connection>
         <developerConnection>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</developerConnection>
         <url>scm:git:git@git.wanshifu.com:demo/wshifu-demo-java.git</url>
-        <tag>1.1.0-SNAPSHOT</tag>
+        <tag>demo-java-1.1.0</tag>
     </scm>
 
     <distributionManagement>

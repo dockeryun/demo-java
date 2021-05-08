@@ -107,6 +107,6 @@
     </build>
 
   <scm>
-    <tag>1.1.0-SNAPSHOT</tag>
+    <tag>demo-java-1.1.0</tag>
   </scm>
 </project>
