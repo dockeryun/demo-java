@@ -8,20 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/demo")
 public class DemoTestController {
 
-    @Value("${test.config}")
-    private String testConfig;
-
     @RequestMapping("/test")
     public String helloWorld(){
         return "Hello my name is yangqiang";
     }
-
-    @RequestMapping("/test/name")
-    public String testHelloWorld(){
-        System.out.println(testConfig);
-        return "Hello my name is name";
-    }
-
-
 
 }
