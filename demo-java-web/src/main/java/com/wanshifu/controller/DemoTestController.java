@@ -10,7 +10,7 @@ public class DemoTestController {
 
     @RequestMapping("/test")
     public String helloWorld(){
-        return "Hello my name is yangqiang";
+        return "maliangliang test";
     }
 
 }
