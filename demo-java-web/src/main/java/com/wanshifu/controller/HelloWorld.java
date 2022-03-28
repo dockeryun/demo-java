@@ -19,6 +19,15 @@ public class HelloWorld {
         return "Hello world!!!123";
     }
 
+    /**
+     * @author liyuanixiang
+     */
+    @PostMapping("hello")
+    public String helloWorldLiyuanxiang(){
+        return "Hello world!!!liyuanxiang";
+    }
+
+
 
     //测试代码review3333444
 
