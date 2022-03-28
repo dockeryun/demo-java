@@ -18,4 +18,9 @@ public class TestController {
     public String helloWorld(){
         return "Hello my name is zhuchuanjie";
     }
+
+    @PostMapping("zrp")
+    public String test(){
+        return "zrp_test";
+    }
 }
