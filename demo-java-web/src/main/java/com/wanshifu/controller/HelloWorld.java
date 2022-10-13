@@ -22,7 +22,7 @@ public class HelloWorld {
     /**
      * @author liyuanixiang
      */
-    @PostMapping("helloLiyuanxiang")
+    @PostMapping("hello")
     public String helloWorldLiyuanxiang(){
         return "Hello world!!!liyuanxiang";
     }
